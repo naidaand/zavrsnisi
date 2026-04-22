@@ -1,0 +1,112 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* POZADINA */
+body {
+  background: linear-gradient(135deg, #f8e1f4, #e0c3fc);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GLAVNI KONTEJNER */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* NASLOVI */
+h2, h3 {
+  color: #6a0572;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+/* INPUTI */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #c77dff;
+  outline: none;
+  box-shadow: 0 0 5px #c77dff;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #c77dff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #9d4edd;
+}
+
+/* LISTA */
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+li {
+  background: #f3e8ff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* DELETE BUTTON */
+li button {
+  background: #ff4d6d;
+  width: auto;
+  padding: 5px 10px;
+}
+
+li button:hover {
+  background: #c9184a;
+}
+
+/* LINKOVI */
+a {
+  color: #6a0572;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.title {
+  text-align: center;
+  font-size: 28px;
+  color: #6a0572;
+  margin-bottom: 25px;
+}
